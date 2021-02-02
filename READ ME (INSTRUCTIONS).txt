@@ -1,0 +1,7 @@
+1. open the DATABASE folder-> inside which there is the airline.sql file.
+
+2. restore the db using the following command
+mysqldump -u [your userName] -p airline > "[PATH]/airline.sql"
+replace [PATH] with DATABASE folder path.
+
+3. run the "Book Flights.jar" to run the project OR load it in any IDE to compile and run. 
